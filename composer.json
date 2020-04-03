@@ -1,0 +1,21 @@
+{
+    "name": "xflyhack/httplib",
+    "description": "CURL HTTP",
+    "type": "library",
+    "require-dev": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "xflyhack",
+            "email": "3762820@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+   	 "psr-4": {
+      		"httpTool\\http\\": "src/http/lib"
+    	}
+    }
+}
